@@ -32,3 +32,7 @@ The capture script writes all non-muted audio packets to a file with base64 enco
 
 To record a short sample, a real Jamulus Client needs to be connected to the same Server. That Client should then be unmuted for a short time while it is playing the sample.
 Contributions for making this process easier are very welcome ;)
+
+## Dependencies
+
+The script makes use of the [Jamulus python library](https://github.com/passing/jamulus-python/)
